@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import com.example.lab13animacion.screens.AnimatedColorExample
+import com.example.lab13animacion.screens.AnimatedContentExample
 import com.example.lab13animacion.screens.AnimatedSizePositionExample
 
 class MainActivity : ComponentActivity() {
@@ -14,9 +15,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             MaterialTheme {
                 Surface {
-                //   AnimatedVisibilityExample() // Llamada a la función de ejemplo
-                //   AnimatedColorExample()
-                    AnimatedSizePositionExample()
+                // AnimatedVisibilityExample() // Llamada a la función de ejemplo
+                // AnimatedColorExample()
+                // AnimatedSizePositionExample()
+                    AnimatedContentExample()
                 }
             }
         }
