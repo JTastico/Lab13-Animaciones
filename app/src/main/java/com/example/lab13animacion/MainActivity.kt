@@ -8,6 +8,7 @@ import androidx.compose.material3.Surface
 import com.example.lab13animacion.screens.AnimatedColorExample
 import com.example.lab13animacion.screens.AnimatedContentExample
 import com.example.lab13animacion.screens.AnimatedSizePositionExample
+import com.example.lab13animacion.screens.CombinedAnimationsExample
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +19,8 @@ class MainActivity : ComponentActivity() {
                 // AnimatedVisibilityExample() // Llamada a la función de ejemplo
                 // AnimatedColorExample()
                 // AnimatedSizePositionExample()
-                    AnimatedContentExample()
+                // AnimatedContentExample()
+                    CombinedAnimationsExample()
                 }
             }
         }
